@@ -24,7 +24,7 @@ Food::~Food()
 
 void Food::BeEaten()
 {
-	switch (Food::food_type_)
+	switch (food_type_)
 	{
 	case kRice:
 		std::cout << kRiceText << std::endl;
